@@ -1,0 +1,6 @@
+## Interface: 11302
+## Title: Loads the Talent UI
+## Author: Sveng
+## DefaultState: disabled
+
+LoadsLoD.lua

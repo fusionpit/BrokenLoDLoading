@@ -1,0 +1,7 @@
+## Interface: 11302
+## Title: Loads with the Talent UI
+## Author: Sveng
+## LoadOnDemand: 1
+## LoadWith: Blizzard_TalentUI
+
+LodExample.lua
