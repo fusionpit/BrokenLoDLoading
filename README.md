@@ -20,3 +20,23 @@ after loading Talent UI
 ```
 
 In this second situation, "LoDExample loaded" is never printed, as `ADDON_LOADED` with the first item in `...` being the AddOn name is never fired.  However, the saved variables are eventually loaded.
+
+It should produce either
+
+```
+running !LoadsLoD
+!LoadsLoD loaded, loading Talent UI
+running LoDExample
+LoDExample loaded
+after loading Talent UI
+```
+
+or
+
+```
+running !LoadsLoD
+!LoadsLoD loaded, loading Talent UI
+running LoDExample
+after loading Talent UI
+LoDExample loaded
+```
